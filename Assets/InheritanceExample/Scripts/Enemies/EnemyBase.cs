@@ -10,6 +10,7 @@ public abstract class EnemyBase : MonoBehaviour
     [SerializeField] private AudioClip _deathSound;
     [SerializeField] private AudioClip _hitSound;
     [SerializeField] protected float MoveSpeed = .05f;
+    public GameObject powerUpDrop;
 
     protected abstract void OnHit();
 
